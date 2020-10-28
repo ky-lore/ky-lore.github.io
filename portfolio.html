@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kyle's Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -22,22 +22,6 @@
 
   #nightBg {
     background-color: rgba(52, 58, 64, 1);
-  }
-
-  #nightBgContainer {
-    background-color: rgb(90, 98, 105);
-    color: blanchedalmond;
-    border-radius: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  #padding {
-    color: blanchedalmond;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 </style>
 
@@ -68,26 +52,37 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7" id="nightBgContainer">
-        <h1>About Me</h1>
-        <span>I am a web developer. I don't have any major projects right now, but thanks for visiting and make sure to
-          check back later as I add to my project portfolio!</span>
-      </div>
+  <div class="row">
+    <div class="col-sm-1">
+      <br>
+    </div>
 
-      <div class="col-md-1"><br></div>
-
-      <div class="col-md-4" id="nightBgContainer">
-        <h2>Experience</h2>
-        <ul>
-          <li>UCI Coding Boot Camp (in progress)</li>
-          <li>AP Computer Science</li>
-          <li>Java (1 year)</li>
-          <li>Python (0.5 years)</li>
-          <li>HTML, CSS (1 year)</li>
-        </ul>
+    <div class="col-sm-5">
+      <div class="card" style="width: auto;">
+        <div class="card-body">
+          <h5 class="card-title">About Me</h5>
+          <h6 class="card-subtitle mb-2 text-muted">My user biography</h6>
+          <p class="card-text">A small little biography page with fun facts about myself incorporating the fundamentals of HTML and CSS.
+          </p>
+          <a href="https://ky-lore.github.io/bio/" class="card-link">View</a>
+        </div>
       </div>
+    </div>
+
+    <div class="col-sm-5">
+      <div class="card" style="width: auto;">
+        <div class="card-body">
+          <h5 class="card-title">Rock-Paper-Scissors</h5>
+          <h6 class="card-subtitle mb-2 text-muted">A JavaScript activity</h6>
+          <p class="card-text">A quick-and-dirty JavaScript program that engages the user in a game of Rock-Paper-Scissors through browser-based alerts and prompts.
+          </p>
+          <a href="https://ky-lore.github.io/RPS/" class="card-link">View</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-1">
+      <br>
     </div>
   </div>
 
